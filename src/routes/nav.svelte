@@ -4,6 +4,7 @@
 <main>
     <nav class="menu">
         <ul class="navbar">
+            <li><a href="/">Home page</a></li>
             <li><a href="/ifs">If statement example</a></li>
             <li><a href="/for">For statement example</a></li>
             <li><a href="/imports">imports example</a></li>

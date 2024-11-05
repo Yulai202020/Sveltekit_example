@@ -1,9 +1,13 @@
 <script>
+    import Navigation from "../nav.svelte";
+
     let message = $state("");
     let count = $state(0);
 </script>
 
 <main>
+    <Navigation />
+
     <div class="container">
         <label for="message">Input text</label>
         <input type="text" id="message" style="width: 300px;" bind:value={message}>
