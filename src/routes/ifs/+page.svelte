@@ -4,9 +4,9 @@
 
 <main>
     <input type="text" bind:value={message}>
-    {#if message == "hello"}
-        <p>Hello</p>
+    {#if message === "hello"}
+        <p>Hello!</p>
     {:else}
-        <p>Input Hello</p>
+        <p>Input hello</p>
     {/if}
 </main>

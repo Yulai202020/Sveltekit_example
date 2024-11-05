@@ -11,4 +11,3 @@
     {@render hello("yulai")}
     {@render hello("azamat")}
 </main>
-
