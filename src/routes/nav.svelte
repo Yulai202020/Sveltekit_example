@@ -14,22 +14,21 @@
 </main>
 
 <style>
-    :global(body), :global(html) {
-        margin: 0px;
-    }
     .menu {
         background-color: black;
+        border-radius: 15px;
     }
 
     .navbar {
         display: flex;
         justify-content: center;
+        padding: 15px;
     }
 
     .navbar a {
         color: white;
         text-decoration: none;
-        padding: 20px 30px;
+        padding: 10px 15px;
         display: block;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
@@ -38,5 +37,4 @@
         background-color: #575757;
         color: #ffcc00;
     }
-
 </style>
